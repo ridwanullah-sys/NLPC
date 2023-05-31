@@ -31,6 +31,12 @@ const Home = () => {
         <div className="w-full flex justify-end">
           <LoginButton set={true} />
         </div>
+        <div className="h-full flex flex-col font-bold items-center text-[3rem] text-center text-slate-200 pt-[10%]">
+          <div>NLPC PFA</div>
+          <div>DEVELOPERS SELECTION </div>
+          <div>CONFERENCE</div>
+          <div className="text-[1rem]">NLPC TEST</div>
+        </div>
       </div>
       <div
         className={`md:transition-none transition ease-in-out delay-150 md:col-span-1 absolute top-0 right-0 left-0 md:relative h-full ${
@@ -48,7 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <Worker /> */}
+      <Worker />
     </div>
   );
 };
